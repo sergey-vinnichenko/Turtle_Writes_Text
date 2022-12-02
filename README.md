@@ -36,6 +36,7 @@ If you will write `ABC` in the terminal, the program will write all the characte
 
 ## Colored Background ##
 Before the program starts drawing text, it draws circles to create a beautiful background for the text. Their number, size and color are set randomly.
+
 ![](https://drive.google.com/uc?export=download&id=1fBTTlgqyJTrN-7Lg6I3q8tgq62NjkaP3)
 
 ## RGB Generator ##
