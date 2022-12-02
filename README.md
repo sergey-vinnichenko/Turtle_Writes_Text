@@ -8,8 +8,7 @@ Run program  –  python3 path/index.py
 
 Written in Python 3.11.0
 
-Main Function
--------------
+### Main Function ###
 
 This program can draw text in the Turtle module. This text must be entered through the Terminal.
 
