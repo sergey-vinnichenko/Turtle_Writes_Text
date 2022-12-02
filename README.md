@@ -7,7 +7,7 @@ Run program  –  `python3 path/index.py`
 
 ## What Is The Main Function ##
 This program can draw text in the Turtle module. This text must be entered through the Terminal.
-![](https://drive.google.com/uc?export=download&id=1FAb1fHGIoYR6ATK1Y1aQ85m_Qv1tWPjg)
+![](https://drive.google.com/uc?export=download&id=1zKEmhFmcmG4KMOlLaOIMKmUzDRYnW5Yf)
 
 ## This Program Has Its Own Unique Font ##
 The `symbols` folder contains the `symbols.py` file. This file contains the `how_to_draw_all_symbols.py` dictionary. This dictionary describes the coordinates of the points on which to write each letter. Each letter is drawn on a 2x4 grid. Here is an example:
