@@ -7,7 +7,9 @@ Run program  –  `python3 path/index.py`
 
 ## What Is The Main Function ##
 This program can draw text in the Turtle module. This text must be entered through the Terminal.
+
 ![](https://drive.google.com/uc?export=download&id=17GSIlxGqraXfYsPcFu3C8XI1_LimOy-X)
+![](https://drive.google.com/uc?export=download&id=1k-WvxBioXIPDCWh1-aQyho8ut8qi-MsI)
 
 ## This Program Has Its Own Unique Font ##
 The `symbols` folder contains the `symbols.py` file. This file contains the `how_to_draw_all_symbols.py` dictionary. This dictionary describes the coordinates of the points on which to write each letter. Each letter is drawn on a 2x4 grid. Here is an example:
@@ -21,6 +23,8 @@ The `symbols` folder contains the `symbols.py` file. This file contains the `how
                 [2, 0],
                 [0, -2]
         ],
+        
+![](https://drive.google.com/uc?export=download&id=1IaXs21z-b3ebNb-fr1Ow59uLY9utqvUD)
 
 By changing this file, we can add new characters to the library, as well as change the entire font or the style of individual characters.
 
@@ -28,6 +32,8 @@ I could have drawn a much more beautiful and complicated font, but my task was n
 
 ## Demo Mode ##
 If you will write `ABC` in the terminal, the program will write all the characters that are in the dictionary.
+
+![](https://drive.google.com/uc?export=download&id=1jwwdFEjE-2UULIi1bMTnhQeIKPma61O_)
 
 ## Colored Background ##
 Before the program starts drawing text, it draws circles to create a beautiful background for the text. Their number, size and color are set randomly.
