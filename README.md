@@ -2,8 +2,8 @@
 This little program was written by me while learning to program in Python.
 
 ## How To Run This Program ##
-This program is written with Python 3.11.0
-Run program  –  python3 path/index.py
+This program is written with Python 3.11.0. I hope that this program will work correctly on any version of Python 3.
+Run program  –  `python3 path/index.py`
 
 ## Wht Is The Main Function ##
 This program can draw text in the Turtle module. This text must be entered through the Terminal.
