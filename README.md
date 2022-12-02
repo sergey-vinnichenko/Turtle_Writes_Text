@@ -35,5 +35,29 @@ Before the program starts drawing text, it draws circles to create a beautiful b
 ## RGB Generator ##
 In this program, the color of the background circles and the color of the text are set randomly. To do this, I wrote a special module for working with RGB colors. This module generates random RGB colors with a given brightness. It is located in the  folder named 'colors' in the 'random_rgb.py' file.R (red), G (green), B(blue) can be specified in the range from 1 to 255. Thus, the sum of R+G+B can be from 3 to 765. The 'random_rgb.py' module generates a random color with the specified sum. For example, R, G, and B can be any value, but their sum must be 300.
 
+        def random_rgb(rgb_total):
+            if rgb_total < 257:
+                rgb_r = randint(1, rgb_total-2)
+                rgb_g = randint(1, rgb_total - rgb_r - 1)
+
+            elif rgb_total < 511:
+                rgb_r = randint(1, 255)
+
+            if rgb_total - rgb_r < 256:
+                rgb_g = randint(1, rgb_total - rgb_r - 1)
+
+            else:
+                rgb_g = randint(rgb_total - rgb_r - 255, 255)
+
+            elif rgb_total < 765:
+                rgb_r = randint(rgb_total - 510, 255)
+                rgb_g = randint(rgb_total - rgb_r - 255, 255)
+
+            else:
+                exit()
+
+            rgb_b = (rgb_total - rgb_r) - rgb_g
+            return rgb_r, rgb_g, rgb_b
+
 If you enter 'COLORTEST' in the Terminal when starting the program, then the program will draw a table with random RGB colors and arrange them in lines from lighter to darker..
 
