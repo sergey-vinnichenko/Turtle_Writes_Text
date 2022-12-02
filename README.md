@@ -37,7 +37,7 @@ In this program, the color of the background circles and the color of the text a
 
         def random_rgb(rgb_total):
             if rgb_total < 257:
-                rgb_r = randint(1, rgb_total-2)
+                rgb_r = randint(1, rgb_total - 2)
                 rgb_g = randint(1, rgb_total - rgb_r - 1)
 
             elif rgb_total < 511:
