@@ -8,7 +8,6 @@ Run program  –  `python3 path/index.py`
 ## What Is The Main Function ##
 This program can draw text in the Turtle module. This text must be entered through the Terminal.
 
-![](https://drive.google.com/uc?export=download&id=17GSIlxGqraXfYsPcFu3C8XI1_LimOy-X)
 ![](https://drive.google.com/uc?export=download&id=1k-WvxBioXIPDCWh1-aQyho8ut8qi-MsI)
 
 ## This Program Has Its Own Unique Font ##
