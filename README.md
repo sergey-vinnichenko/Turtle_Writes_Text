@@ -59,5 +59,5 @@ In this program, the color of the background circles and the color of the text a
             rgb_b = (rgb_total - rgb_r) - rgb_g
             return rgb_r, rgb_g, rgb_b
 
-If you enter 'COLORTEST' in the Terminal when starting the program, then the program will draw a table with random RGB colors and arrange them in lines from lighter to darker..
+If you enter `COLORTEST` in the Terminal when starting the program, then the program will draw a table with random RGB colors and arrange them in lines from lighter to darker..
 
