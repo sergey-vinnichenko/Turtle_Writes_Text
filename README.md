@@ -79,24 +79,24 @@ def random_rgb(rgb_total):
         rgb_r = randint(1, rgb_total - 2)
         rgb_g = randint(1, rgb_total - rgb_r - 1)```
 
-            elif rgb_total < 511:
-                rgb_r = randint(1, 255)
+    elif rgb_total < 511:
+        rgb_r = randint(1, 255)
 
-            if rgb_total - rgb_r < 256:
-                rgb_g = randint(1, rgb_total - rgb_r - 1)
+        if rgb_total - rgb_r < 256:
+            rgb_g = randint(1, rgb_total - rgb_r - 1)
 
-            else:
-                rgb_g = randint(rgb_total - rgb_r - 255, 255)
+        else:
+            rgb_g = randint(rgb_total - rgb_r - 255, 255)
 
-            elif rgb_total < 765:
-                rgb_r = randint(rgb_total - 510, 255)
-                rgb_g = randint(rgb_total - rgb_r - 255, 255)
+    elif rgb_total < 765:
+        rgb_r = randint(rgb_total - 510, 255)
+        rgb_g = randint(rgb_total - rgb_r - 255, 255)
 
-            else:
-                exit()
+    else:
+        exit()
 
-            rgb_b = (rgb_total - rgb_r) - rgb_g
-            return rgb_r, rgb_g, rgb_b```
+    rgb_b = (rgb_total - rgb_r) - rgb_g
+    return rgb_r, rgb_g, rgb_b
 
 If you enter `COLORTEST` in the Terminal when starting the program, then the program will draw a table with random RGB colors and arrange them in lines from lighter to darker.
 
