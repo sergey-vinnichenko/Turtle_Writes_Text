@@ -97,6 +97,7 @@ def random_rgb(rgb_total):
 
     rgb_b = (rgb_total - rgb_r) - rgb_g
     return rgb_r, rgb_g, rgb_b
+```
 
 If you enter `COLORTEST` in the Terminal when starting the program, then the program will draw a table with random RGB colors and arrange them in lines from lighter to darker.
 
