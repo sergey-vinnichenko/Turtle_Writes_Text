@@ -5,6 +5,10 @@ This little program was written by me while learning to program in Python.
 This program is written with Python 3.11.0. I hope this program will work correctly on any version of Python 3.
 Run program
 
+        python path/index.py
+        
+or
+
         python3 path/index.py
 
 ## What Is The Main Function ##
