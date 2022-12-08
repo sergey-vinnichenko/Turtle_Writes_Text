@@ -3,9 +3,9 @@ __all__ = ['random_rgb']
 from random import randint
 
 
-# This module creates a random RGB color,
-# with the sum of R + G + B is equal to the given value
 def random_rgb(rgb_total):
+    '''This module creates a random RGB color,
+    with the sum of R + G + B is equal to the given value'''
     if rgb_total < 257:
         rgb_r = randint(1, rgb_total-2)
         rgb_g = randint(1, rgb_total - rgb_r - 1)
@@ -30,7 +30,7 @@ def random_rgb(rgb_total):
     rgb_b = (rgb_total - rgb_r) - rgb_g
     print(f'R={rgb_r}, G{rgb_g}, B{rgb_b}, rgb_total = {rgb_total}')
 
-    # проверка
+    # checking the value
     if rgb_r > 255 or rgb_g > 255 or rgb_b > 255 or rgb_r < 1 or rgb_g < 1 or rgb_b < 1:
         print(f'Error: the value is wrong. R={rgb_r}, G{rgb_g}, B{rgb_b}')
         exit()
