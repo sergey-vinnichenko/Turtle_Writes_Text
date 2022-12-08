@@ -1,7 +1,7 @@
-# modes of interaction with the Turtle module
-# if the third value is missing - Turtle will draw
-# if the third value is 1 - Turtle will move the cursor but won't draw
-# if the third value is 2 - Turtle will make a dot
+''' modes of interaction with the Turtle module
+if the third value is missing - Turtle will draw
+if the third value is 1 - Turtle will move the cursor but won't draw
+if the third value is 2 - Turtle will make a dot'''
 
 how_to_draw_all_symbols = {
     'A': [
