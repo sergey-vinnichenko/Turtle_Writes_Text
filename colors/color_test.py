@@ -17,8 +17,8 @@ def color_test():
     lightness = 727   # от 3 до 765, 38 – это 5%
     line_no = 1
 
-    while lightness < 3 or lightness > 765 or line_no < 20:  # количество рядов
-        for color_no in range(10):  # количество элементов в ряду
+    while lightness < 3 or lightness > 765 or line_no < 20:  # number of rows
+        for color_no in range(10):  # number of elements in a row
             print('color_no -', color_no)
             draw_square(*random_rgb(lightness))
 
@@ -26,7 +26,7 @@ def color_test():
         new_line()
         line_no += 1
         print('line_no -', line_no)
-        lightness -= 38  # 38 – это 5%
+        lightness -= 38  # 38 is 5%
 
     t.done()
 
