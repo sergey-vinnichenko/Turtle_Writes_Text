@@ -24,8 +24,10 @@ def main_action(text):
     t.goto(start_x, start_y)
     t.pensize(pen_size)
 
-    for word in text.split():  # перебираем строки
-        for current_symbol in list(word):  # перебираем символы
+    for word in text.split(): 
+        '''iterate over the rows'''
+        for current_symbol in list(word):
+            '''iterate over characters'''
             if current_symbol in how_to_draw_all_symbols:
                 type_symbol(current_symbol, type_size, pen_size * 1.5)
 
@@ -34,7 +36,8 @@ def main_action(text):
         if pen_size > 1:
             pen_size *= 0.8
 
-        t.goto(start_x, t.ycor() - ((4 + line_space) * type_size * 5))  # идём в точку начала новой строки
+        t.goto(start_x, t.ycor() - ((4 + line_space) * type_size * 5))
+        '''go to the start of a new line'''
         t.pensize(pen_size)
         new_line(*random_rgb(250))
 
